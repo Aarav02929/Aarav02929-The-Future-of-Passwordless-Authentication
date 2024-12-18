@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css" />
+  </head>
+  <body>
+    <h1>Dependence on Hardware and Devices</h1>
+    <p>
+      Passwordless authentication often relies on hardware devices or specific
+      user devices to verify identity, which introduces certain challenges
+      related to device dependency and access continuity.
+    </p>
+    <ul>
+      <li><strong>Loss or Theft of Hardware Keys</strong></li>
+      <li>
+        Hardware tokens, such as YubiKey or Google Titan Security Key, are
+        popular tools for passwordless authentication. However, if a user loses
+        or misplaces their hardware token, they may be unable to access their
+        accounts, leading to disruptions.
+      </li>
+      <li><strong>Security Concerns:</strong></li>
+      <li>
+        If a hardware token is stolen, there is a risk that an unauthorized
+        party may attempt to misuse it, especially if the token is not paired
+        with additional security measures like biometric confirmation.
+      </li>
+      <li><strong>Solution</strong></li>
+      <li>
+        Organizations can implement backup recovery methods to mitigate these
+        risks, such as:
+      </li>
+      <li>
+        Biometric Fallback: Allow users to authenticate with facial recognition
+        or fingerprints.
+      </li>
+      <li>
+        Emergency One-Time Passcodes (OTPs): Issue temporary access codes
+        through secure channels, such as registered email or authentication
+        apps.
+      </li>
+      <li>
+        Multi-Device Registration: Permit users to register multiple devices for
+        authentication redundancy.
+      </li>
+      <li><strong> Device Dependency</strong></li>
+      <li>
+        Passwordless methods like biometric authentication and cryptographic
+        keys are often tied to a user’s device (e.g., smartphone, laptop). If
+        users change, lose, or damage their devices, they may face access
+        disruptions.
+      </li>
+      <li><strong>Challenges</strong></li>
+      <li>
+        Users upgrading their phones or laptops may need to reconfigure
+        authentication methods.
+      </li>
+      <li>
+        In remote work scenarios, device failures can hinder productivity if no
+        backup solutions exist.
+      </li>
+      <li><strong>Solution</strong></li>
+      <li>To address device dependency:</li>
+      <li>
+        Implement cloud-based recovery to allow users to restore authentication
+        credentials on new devices securely.
+      </li>
+      <li>
+        Use cross-device authentication options, such as linking authentication
+        tools across smartphones, tablets, and hardware tokens.
+      </li>
+    </ul>
+    <p>
+      While hardware and device dependency add complexity to passwordless
+      systems, robust recovery mechanisms and backup solutions ensure
+      reliability and user convenience while maintaining strong security.
+    </p>
+    <button><a href="advantageChallange.html">PREVIOUS PAGE</a></button>
+    <button><a href="index.html">GO BACK TO HOMEPAGE</a></button>
+  </body>
+</html>
